@@ -1,0 +1,7 @@
+.card-home{
+    text-decoration: none !important;
+}
+
+.card-hover:hover{
+    background-color: #efefef;
+}

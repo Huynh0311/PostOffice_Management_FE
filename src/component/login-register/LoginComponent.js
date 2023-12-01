@@ -16,7 +16,7 @@ const LoginComponent = () => {
                     className="position-relative overflow-hidden radial-gradient min-vh-100 d-flex align-items-center justify-content-center">
                     <div className="d-flex align-items-center justify-content-center w-100">
                         <div className="row justify-content-center w-100">
-                            <div className="col-md-8 col-lg-6 col-xxl-3">
+                            <div className="col-md-8 col-lg-4 col-xxl-3">
                                 <div className="card mb-0">
                                     <Formik initialValues={{
                                         username: '',

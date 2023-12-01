@@ -3,7 +3,8 @@ import {Route, Routes} from "react-router-dom";
 import LoginComponent from "./component/login-register/LoginComponent";
 import * as PropTypes from "prop-types";
 import 'react-toastify/dist/ReactToastify.css';
-import PostOfficeComponent from "./component/postOfficeManagement/PostOfficeComponent";
+import OrdersComponent from "./component/postOfficeManagement/OrdersComponent";
+import ShipperComponent from "./component/postOfficeManagement/ShipperComponent";
 
 
 function ToastContainer(props) {
@@ -29,7 +30,8 @@ function App() {
       <Routes>
         <Route path={"/login"} element={<LoginComponent/>}/>
         <Route path={"/register"} element={<LoginComponent/>}/>
-        <Route path={"/home"} element={<PostOfficeComponent/>}/>
+        <Route path={"/home"} element={<OrdersComponent/>}/>
+        <Route path={"/shipper"} element={<ShipperComponent/>}/>
       </Routes>
 
         <ToastContainer
